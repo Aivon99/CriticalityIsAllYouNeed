@@ -1,0 +1,15 @@
+Recurrent neural networks (RNNs) are extremely popular models for time series learning. A seminal study has showed that chaotic dynamics can emerge sharply in these networks at a critical value of the initialization parameters [1]. Further work revealed that learning is favoured at or even slightly beyond the so-called “edge of chaos” critical point [2, 3]. By exploring the edge of chaos, these networks can enhance their computational capacity and improve predictive performance for time series exhibiting noise and irregular patterns [2].
+The aim of this project is to study the predictive capability of RNNs for noisy time-series around their critical point, comparing different architectures and trying to characterize the criticality with concepts borrowed from statistical physics.
+
+Goals
+• Review of the current literature on the topic, with emphasis on reservoir computing and applications to time series prediction.
+• Characterization of the critical regime and the edge of chaos, its scaling and universal properties, for various RNN architectures.
+• Study of the chaotic regime and the related Lyapunov spectrum.
+• Development of toy-models and heuristics that can help for training RNNs in the little-data high-noise regime.
+
+
+[1] - H. Sompolinsky, A. Crisanti, and H. J. Sommers, "Chaos in Random Neural Networks", Phys Rev. Lett. 61, 259 - 1988
+[2]- Rainer Engelken, Fred Wolf, and L. F. Abbott, “Lyapunov spectra of chaotic recurrent neural networks”, Phys. Rev. Research 5, 043044 (2023).
+[3] - Daniel J. Gauthier, Erik Bollt, Aaron Griffith & Wendson A. S. Barbosa, "Next generation reservoir computing", Nature Comm. 12, 5564 (2021).
+
+
